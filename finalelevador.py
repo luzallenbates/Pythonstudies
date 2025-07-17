@@ -9,7 +9,7 @@ print("Subiundo")
 for i in range(11):
     subiu = False
     desceu = False
-    if i == paradas["subidas"][k]:
+    if k< len(paradas["subidas"]) and i == paradas["subidas"][k]:
         subiu = True
         in_elevador.append(paradas["subidas"][k])
         left_elevador.append(paradas["descidas"][k])
